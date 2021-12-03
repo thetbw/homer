@@ -197,6 +197,7 @@ export default {
       }
     },
     getConfig: function (path = "assets/config.yml") {
+      console.log(`Loading config from ${path}`);
       return fetch(path).then((response) => {
         if (response.redirected) {
           // This allows to work with authentication proxies.
