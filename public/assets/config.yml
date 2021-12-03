@@ -60,7 +60,7 @@ message:
 links:
   - name: "Github"
     icon: "fab fa-github"
-    url: "https://github.com/bastienwirtz/homer"
+    url: "https://github.com/thetbw"
     target: "_blank"
 
   - name: "Blog"
