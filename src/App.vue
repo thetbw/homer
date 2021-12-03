@@ -12,13 +12,13 @@
     <div id="bighead">
       <section v-if="config.header" class="first-line">
         <div v-cloak class="container">
-          <div class="logo">
+          <div class="logo" v-if="config.logo || config.icon">
             <a href="#">
               <img v-if="config.logo" :src="config.logo" alt="dashboard logo" />
             </a>
             <i v-if="config.icon" :class="config.icon"></i>
           </div>
-          <div class="dashboard-title">
+          <div class="dashboard-title" :style="(config.logo || config.icon)?'':'padding-left:0px'">
             <span class="headline">{{ config.subtitle }}</span>
             <h1>{{ config.title }}</h1>
           </div>
