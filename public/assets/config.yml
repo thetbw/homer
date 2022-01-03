@@ -86,3 +86,12 @@ services:
         tag: "game"
         url: "https://www.coolapk.com/game/241438"
         target: "_blank"
+  - name: "java"
+    icon: "fab fa-java"
+    items:
+      - name: "jdbc monitor"
+        icon: "fas fa-database"
+        subtitle: "jdbc监控"
+        tag: "java"
+        url: "https://github.com/thetbw/monitor-jdbc"
+        target: "_blank"
