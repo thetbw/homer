@@ -18,7 +18,7 @@
             </a>
             <i v-if="config.icon" :class="config.icon"></i>
           </div>
-          <div class="dashboard-title" :style="(config.logo || config.icon)?'':'padding-left:0px'">
+          <div class="dashboard-title" :style="(config.logo || config.icon)?'':'padding-left:10px'">
             <span class="headline">{{ config.subtitle }}</span>
             <h1>{{ config.title }}</h1>
           </div>

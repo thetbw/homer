@@ -266,6 +266,10 @@ body {
     .column div:last-child .card {
       border-radius: 0 0 5px 5px;
     }
+
+    .column:last-child{
+      margin-bottom: 60px;
+    }
   }
 
   .footer {
