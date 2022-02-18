@@ -56,7 +56,7 @@ message:
   style: "is-info" # Optional: style of the message
   title: "welcome"
   #icon: "fa fa-info-circle" # Optional: icon of the message
-  content: "欢迎访问黑羽的个人主页!</br>下面是我的一些个人作品"
+  content: "欢迎访问黑羽的个人主页!"
 links:
   - name: "Github"
     icon: "fab fa-github"
