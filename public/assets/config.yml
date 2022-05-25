@@ -68,6 +68,11 @@ links:
     url: "https://blog.thetbw.xyz"
     target: "_blank"
 
+  - name: "Games"
+    icon: "fas fa-gamepad"
+    url: "https://game.thetbw.xyz"
+    target: "_blank"
+
   - name: "About"
     icon: "fas fa-user-alt"
     url: "https://blog.thetbw.xyz/s/about"

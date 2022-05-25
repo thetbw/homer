@@ -30,6 +30,7 @@
                 v-if="link.icon"
                 :class="['fa-fw', link.icon, { 'mr-2': link.name }]"
               ></i>
+              <img v-if="link.logo" :src="link.logo"/>
               {{ link.name }}
             </a>
           </div>
