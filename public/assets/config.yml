@@ -100,3 +100,12 @@ services:
         tag: "java"
         url: "https://github.com/thetbw/monitor-jdbc"
         target: "_blank"
+  - name: "js"
+    icon: "fa fa-globe"
+    items: 
+      - name: "jquery-uploader"
+        icon: "fa fa-upload"
+        subtitle: "一个jquery上传组件"
+        tag: "jquery"
+        url: "https://github.com/thetbw/jquery-uploader"
+        target: "_blank"
