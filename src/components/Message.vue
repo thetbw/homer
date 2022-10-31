@@ -47,14 +47,13 @@ export default {
       }
       if (this.item.url) {
         let fetchedMessage = await this.downloadMessage(this.item.url);
-        console.log("done");
         if (this.item.mapping) {
           fetchedMessage = this.mapRemoteMessage(fetchedMessage);
         }
 
         // keep the original config value if no value is provided by the endpoint
         const message = this.message;
-        for (const prop of ["title", "style", "content"]) {
+        for (const prop of ["title", "style", "content", "icon"]) {
           if (prop in fetchedMessage && fetchedMessage[prop] !== null) {
             message[prop] = fetchedMessage[prop];
           }
